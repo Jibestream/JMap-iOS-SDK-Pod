@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JMapiOSSDK4.0'
-  s.version          = '1.0.0'
+  s.version          = '1.0.3'
   s.summary          = 'The Jibestream JMap 4.0 iOS SDK.'
 
   s.description      = 'This CocoaPod provides the release version for the Jibestream iOS SDK.'
