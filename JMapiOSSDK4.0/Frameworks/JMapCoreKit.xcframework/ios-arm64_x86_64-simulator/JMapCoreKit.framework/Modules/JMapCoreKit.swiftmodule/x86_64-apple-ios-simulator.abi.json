@@ -1,0 +1,2646 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KDTree",
+        "printedName": "KDTree",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "leaf",
+            "printedName": "leaf",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint> (JMapCoreKit.KDTree<τ_0_0>.Type) -> JMapCoreKit.KDTree<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KDTree",
+                    "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:11JMapCoreKit6KDTreeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JMapCoreKit.KDTree<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KDTree",
+                        "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11JMapCoreKit6KDTreeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11JMapCoreKit6KDTreeO4leafyACyxGAEmAA0D5PointRzlF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO4leafyACyxGAEmAA0D5PointRzlF",
+            "moduleName": "JMapCoreKit"
+          },
+          {
+            "kind": "Var",
+            "name": "node",
+            "printedName": "node",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint> (JMapCoreKit.KDTree<τ_0_0>.Type) -> (JMapCoreKit.KDTree<τ_0_0>, τ_0_0, Swift.Int, JMapCoreKit.KDTree<τ_0_0>) -> JMapCoreKit.KDTree<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(JMapCoreKit.KDTree<τ_0_0>, τ_0_0, Swift.Int, JMapCoreKit.KDTree<τ_0_0>) -> JMapCoreKit.KDTree<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KDTree",
+                        "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11JMapCoreKit6KDTreeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(left: JMapCoreKit.KDTree<τ_0_0>, value: τ_0_0, dimension: Swift.Int, right: JMapCoreKit.KDTree<τ_0_0>)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KDTree",
+                            "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:11JMapCoreKit6KDTreeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KDTree",
+                            "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:11JMapCoreKit6KDTreeO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JMapCoreKit.KDTree<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KDTree",
+                        "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11JMapCoreKit6KDTreeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11JMapCoreKit6KDTreeO4nodeyACyxGAE_xSiAEtcAEmAA0D5PointRzlF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO4nodeyACyxGAE_xSiAEtcAEmAA0D5PointRzlF",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "Indirect"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(values:depth:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KDTree",
+                "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11JMapCoreKit6KDTreeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11JMapCoreKit6KDTreeO6values5depthACyxGSayxG_Sitcfc",
+            "mangledName": "$s11JMapCoreKit6KDTreeO6values5depthACyxGSayxG_Sitcfc",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "isEmpty",
+            "printedName": "isEmpty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11JMapCoreKit6KDTreeO7isEmptySbvp",
+            "mangledName": "$s11JMapCoreKit6KDTreeO7isEmptySbvp",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11JMapCoreKit6KDTreeO7isEmptySbvg",
+                "mangledName": "$s11JMapCoreKit6KDTreeO7isEmptySbvg",
+                "moduleName": "JMapCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+                "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11JMapCoreKit6KDTreeO5countSivp",
+            "mangledName": "$s11JMapCoreKit6KDTreeO5countSivp",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11JMapCoreKit6KDTreeO5countSivg",
+                "mangledName": "$s11JMapCoreKit6KDTreeO5countSivg",
+                "moduleName": "JMapCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+                "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "elements",
+            "printedName": "elements",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11JMapCoreKit6KDTreeO8elementsSayxGvp",
+            "mangledName": "$s11JMapCoreKit6KDTreeO8elementsSayxGvp",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11JMapCoreKit6KDTreeO8elementsSayxGvg",
+                "mangledName": "$s11JMapCoreKit6KDTreeO8elementsSayxGvg",
+                "moduleName": "JMapCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+                "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "contains",
+            "printedName": "contains(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO8containsySbxF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO8containsySbxF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "inserting",
+            "printedName": "inserting(_:dim:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KDTree",
+                "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11JMapCoreKit6KDTreeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO9inserting_3dimACyxGx_SitF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO9inserting_3dimACyxGx_SitF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removing",
+            "printedName": "removing(_:dim:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KDTree",
+                "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11JMapCoreKit6KDTreeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO8removing_3dimACyxGx_SitF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO8removing_3dimACyxGx_SitF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "depth",
+            "printedName": "depth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11JMapCoreKit6KDTreeO5depthSivp",
+            "mangledName": "$s11JMapCoreKit6KDTreeO5depthSivp",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11JMapCoreKit6KDTreeO5depthSivg",
+                "mangledName": "$s11JMapCoreKit6KDTreeO5depthSivg",
+                "moduleName": "JMapCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+                "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "map",
+            "printedName": "map(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KDTree",
+                "printedName": "JMapCoreKit.KDTree<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:11JMapCoreKit6KDTreeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO3mapyACyqd__Gqd__xKXEKAA0D5PointRd__lF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO3mapyACyqd__Gqd__xKXEKAA0D5PointRd__lF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : JMapCoreKit.KDTreePoint, τ_1_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element, T where Element : JMapCoreKit.KDTreePoint, T : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "filter",
+            "printedName": "filter(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KDTree",
+                "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11JMapCoreKit6KDTreeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO6filteryACyxGSbxKXEKF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO6filteryACyxGSbxKXEKF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forEach",
+            "printedName": "forEach(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO7forEachyyyxKXEKF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO7forEachyyyxKXEKF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "investigateTree",
+            "printedName": "investigateTree(_:depth:body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[JMapCoreKit.KDTree<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KDTree",
+                    "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:11JMapCoreKit6KDTreeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JMapCoreKit.KDTree<τ_0_0>, [JMapCoreKit.KDTree<τ_0_0>], Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(JMapCoreKit.KDTree<τ_0_0>, [JMapCoreKit.KDTree<τ_0_0>], Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KDTree",
+                        "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11JMapCoreKit6KDTreeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[JMapCoreKit.KDTree<τ_0_0>]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KDTree",
+                            "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:11JMapCoreKit6KDTreeO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO15investigateTree_5depth4bodyySayACyxGG_SiyAG_AHSitXEtF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO15investigateTree_5depth4bodyySayACyxGG_SiyAG_AHSitXEtF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeOAASERzrlE6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11JMapCoreKit6KDTreeOAASERzrlE6encode2toys7Encoder_p_tKF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint, Element : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KDTree",
+                "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11JMapCoreKit6KDTreeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11JMapCoreKit6KDTreeOAASeRzrlE4fromACyxGs7Decoder_p_tKcfc",
+            "mangledName": "$s11JMapCoreKit6KDTreeOAASeRzrlE4fromACyxGs7Decoder_p_tKcfc",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint, τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint, Element : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeOAASERzrlE4save2toy10Foundation3URLV_tKF",
+            "mangledName": "$s11JMapCoreKit6KDTreeOAASERzrlE4save2toy10Foundation3URLV_tKF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint, Element : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contentsOf:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KDTree",
+                "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:11JMapCoreKit6KDTreeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11JMapCoreKit6KDTreeOAASeRzrlE10contentsOfACyxG10Foundation3URLV_tKcfc",
+            "mangledName": "$s11JMapCoreKit6KDTreeOAASeRzrlE10contentsOfACyxG10Foundation3URLV_tKcfc",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint, τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint, Element : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "elementsIn",
+            "printedName": "elementsIn(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(Swift.Double, Swift.Double)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Double, Swift.Double)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO10elementsInySayxGSaySd_SdtGF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO10elementsInySayxGSaySd_SdtGF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nearest",
+            "printedName": "nearest(to:maxDistance:where:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO7nearest2to11maxDistance5wherexSgx_SdSbxXEtF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO7nearest2to11maxDistance5wherexSgx_SdSbxXEtF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nearestK",
+            "printedName": "nearestK(_:to:where:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO8nearestK_2to5whereSayxGSi_xSbxXEtF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO8nearestK_2to5whereSayxGSi_xSbxXEtF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allPoints",
+            "printedName": "allPoints(within:of:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO9allPoints6within2ofSayxGSd_xtF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO9allPoints6within2ofSayxGSd_xtF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11JMapCoreKit6KDTreeO11descriptionSSvp",
+            "mangledName": "$s11JMapCoreKit6KDTreeO11descriptionSSvp",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11JMapCoreKit6KDTreeO11descriptionSSvg",
+                "mangledName": "$s11JMapCoreKit6KDTreeO11descriptionSSvg",
+                "moduleName": "JMapCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+                "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11JMapCoreKit6KDTreeO16debugDescriptionSSvp",
+            "mangledName": "$s11JMapCoreKit6KDTreeO16debugDescriptionSSvp",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11JMapCoreKit6KDTreeO16debugDescriptionSSvg",
+                "mangledName": "$s11JMapCoreKit6KDTreeO16debugDescriptionSSvg",
+                "moduleName": "JMapCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+                "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeIterator",
+            "printedName": "makeIterator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyIterator",
+                "printedName": "Swift.AnyIterator<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:s11AnyIteratorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit6KDTreeO12makeIterators03AnyF0VyxGyF",
+            "mangledName": "$s11JMapCoreKit6KDTreeO12makeIterators03AnyF0VyxGyF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11JMapCoreKit6KDTreeO",
+        "mangledName": "$s11JMapCoreKit6KDTreeO",
+        "moduleName": "JMapCoreKit",
+        "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+        "sugared_genericSig": "<Element where Element : JMapCoreKit.KDTreePoint>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyIterator",
+                    "printedName": "Swift.AnyIterator<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s11AnyIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "==",
+        "printedName": "==(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "KDTree",
+            "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:11JMapCoreKit6KDTreeO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "KDTree",
+            "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:11JMapCoreKit6KDTreeO"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11JMapCoreKit2eeoiySbAA6KDTreeOyxG_AEtAA0E5PointRzlF",
+        "mangledName": "$s11JMapCoreKit2eeoiySbAA6KDTreeOyxG_AEtAA0E5PointRzlF",
+        "moduleName": "JMapCoreKit",
+        "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+        "sugared_genericSig": "<T where T : JMapCoreKit.KDTreePoint>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "!=",
+        "printedName": "!=(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "KDTree",
+            "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:11JMapCoreKit6KDTreeO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "KDTree",
+            "printedName": "JMapCoreKit.KDTree<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:11JMapCoreKit6KDTreeO"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11JMapCoreKit2neoiySbAA6KDTreeOyxG_AEtAA0E5PointRzlF",
+        "mangledName": "$s11JMapCoreKit2neoiySbAA6KDTreeOyxG_AEtAA0E5PointRzlF",
+        "moduleName": "JMapCoreKit",
+        "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+        "sugared_genericSig": "<T where T : JMapCoreKit.KDTreePoint>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JMapNearestElementDelegate",
+        "printedName": "JMapNearestElementDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isConditionPassed",
+            "printedName": "isConditionPassed(waypoint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMapWaypoint",
+                "printedName": "JMapCoreKit.JMapWaypoint",
+                "usr": "c:objc(cs)JMapWaypoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@JMapCoreKit@objc(pl)JMapNearestElementDelegate(im)isConditionPassedWithWaypoint:",
+            "mangledName": "$s11JMapCoreKit0A22NearestElementDelegateP17isConditionPassed8waypointSbSo0A8WaypointC_tF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.JMapNearestElementDelegate>",
+            "sugared_genericSig": "<Self where Self : JMapCoreKit.JMapNearestElementDelegate>",
+            "protocolReq": true,
+            "objc_name": "isConditionPassedWithWaypoint:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@JMapCoreKit@objc(pl)JMapNearestElementDelegate",
+        "mangledName": "$s11JMapCoreKit0A22NearestElementDelegateP",
+        "moduleName": "JMapCoreKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JMapNearestElement",
+        "printedName": "JMapNearestElement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any JMapCoreKit.JMapNearestElementDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JMapNearestElementDelegate",
+                    "printedName": "any JMapCoreKit.JMapNearestElementDelegate",
+                    "usr": "c:@M@JMapCoreKit@objc(pl)JMapNearestElementDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@JMapCoreKit@objc(cs)JMapNearestElement(py)delegate",
+            "mangledName": "$s11JMapCoreKit0A14NearestElementC8delegateAA0adE8Delegate_pSgvp",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any JMapCoreKit.JMapNearestElementDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JMapNearestElementDelegate",
+                        "printedName": "any JMapCoreKit.JMapNearestElementDelegate",
+                        "usr": "c:@M@JMapCoreKit@objc(pl)JMapNearestElementDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@JMapCoreKit@objc(cs)JMapNearestElement(im)delegate",
+                "mangledName": "$s11JMapCoreKit0A14NearestElementC8delegateAA0adE8Delegate_pSgvg",
+                "moduleName": "JMapCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any JMapCoreKit.JMapNearestElementDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JMapNearestElementDelegate",
+                        "printedName": "any JMapCoreKit.JMapNearestElementDelegate",
+                        "usr": "c:@M@JMapCoreKit@objc(pl)JMapNearestElementDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@JMapCoreKit@objc(cs)JMapNearestElement(im)setDelegate:",
+                "mangledName": "$s11JMapCoreKit0A14NearestElementC8delegateAA0adE8Delegate_pSgvs",
+                "moduleName": "JMapCoreKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11JMapCoreKit0A14NearestElementC8delegateAA0adE8Delegate_pSgvM",
+                "mangledName": "$s11JMapCoreKit0A14NearestElementC8delegateAA0adE8Delegate_pSgvM",
+                "moduleName": "JMapCoreKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initializeKDTree",
+            "printedName": "initializeKDTree(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMapActiveVenue",
+                "printedName": "JMapCoreKit.JMapActiveVenue",
+                "usr": "c:objc(cs)JMapActiveVenue"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@JMapCoreKit@objc(cs)JMapNearestElement(im)initializeKDTreeFor:",
+            "mangledName": "$s11JMapCoreKit0A14NearestElementC16initializeKDTree3forySo0A11ActiveVenueC_tF",
+            "moduleName": "JMapCoreKit",
+            "objc_name": "initializeKDTreeFor:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchNearestElement",
+            "printedName": "searchNearestElement(_:at:forMap:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMapMap",
+                "printedName": "JMapCoreKit.JMapMap",
+                "usr": "c:objc(cs)JMapMap"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JMapCoreKit.JMapWaypoint?, AnyObject?, JMapCoreKit.JMapError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(JMapCoreKit.JMapWaypoint?, AnyObject?, JMapCoreKit.JMapError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "JMapCoreKit.JMapWaypoint?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JMapWaypoint",
+                            "printedName": "JMapCoreKit.JMapWaypoint",
+                            "usr": "c:objc(cs)JMapWaypoint"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AnyObject?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "AnyObject"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "JMapCoreKit.JMapError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JMapError",
+                            "printedName": "JMapCoreKit.JMapError",
+                            "usr": "c:objc(cs)JMapError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@JMapCoreKit@objc(cs)JMapNearestElement(im)searchNearestElement:at:forMap:completionHandler:",
+            "mangledName": "$s11JMapCoreKit0A14NearestElementC06searchdE0_2at6forMap17completionHandleryyXl_So7CGPointVSo0aI0CySo0A8WaypointCSg_yXlSgSo0A5ErrorCSgtXEtF",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@JMapCoreKit@objc(cs)JMapNearestElement(im)reset",
+            "mangledName": "$s11JMapCoreKit0A14NearestElementC5resetyyF",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JMapNearestElement",
+                "printedName": "JMapCoreKit.JMapNearestElement",
+                "usr": "c:@M@JMapCoreKit@objc(cs)JMapNearestElement"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@JMapCoreKit@objc(cs)JMapNearestElement(im)init",
+            "mangledName": "$s11JMapCoreKit0A14NearestElementCACycfc",
+            "moduleName": "JMapCoreKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getNearestElement",
+            "printedName": "getNearestElement(from:toMapId:for:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JMapWaypoint",
+                "printedName": "JMapCoreKit.JMapWaypoint",
+                "usr": "c:objc(cs)JMapWaypoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AnyObject]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@JMapCoreKit@objc(cs)JMapNearestElement(im)getNearestElementFrom:toMapId:for:withAccessibility:",
+            "mangledName": "$s11JMapCoreKit0A14NearestElementC03getdE04from7toMapId3for17withAccessibilitySDySSypGSgSo0A8WaypointC_So8NSNumberCSayyXlGSitF",
+            "moduleName": "JMapCoreKit",
+            "objc_name": "getNearestElementFrom:toMapId:for:withAccessibility:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@JMapCoreKit@objc(cs)JMapNearestElement",
+        "mangledName": "$s11JMapCoreKit0A14NearestElementC",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KDTreePoint",
+        "printedName": "KDTreePoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dimensions",
+            "printedName": "dimensions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11JMapCoreKit11KDTreePointP10dimensionsSivpZ",
+            "mangledName": "$s11JMapCoreKit11KDTreePointP10dimensionsSivpZ",
+            "moduleName": "JMapCoreKit",
+            "static": true,
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11JMapCoreKit11KDTreePointP10dimensionsSivgZ",
+                "mangledName": "$s11JMapCoreKit11KDTreePointP10dimensionsSivgZ",
+                "moduleName": "JMapCoreKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+                "sugared_genericSig": "<Self where Self : JMapCoreKit.KDTreePoint>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "kdDimension",
+            "printedName": "kdDimension(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit11KDTreePointP11kdDimensionySdSiF",
+            "mangledName": "$s11JMapCoreKit11KDTreePointP11kdDimensionySdSiF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Self where Self : JMapCoreKit.KDTreePoint>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "squaredDistance",
+            "printedName": "squaredDistance(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11JMapCoreKit11KDTreePointP15squaredDistance2toSdx_tF",
+            "mangledName": "$s11JMapCoreKit11KDTreePointP15squaredDistance2toSdx_tF",
+            "moduleName": "JMapCoreKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : JMapCoreKit.KDTreePoint>",
+            "sugared_genericSig": "<Self where Self : JMapCoreKit.KDTreePoint>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11JMapCoreKit11KDTreePointP",
+        "mangledName": "$s11JMapCoreKit11KDTreePointP",
+        "moduleName": "JMapCoreKit",
+        "genericSig": "<τ_0_0 : Swift.Equatable>",
+        "sugared_genericSig": "<Self : Swift.Equatable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JMapCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CGPoint",
+        "printedName": "CGPoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dimensions",
+            "printedName": "dimensions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7CGPointV11JMapCoreKitE10dimensionsSivpZ",
+            "mangledName": "$sSo7CGPointV11JMapCoreKitE10dimensionsSivpZ",
+            "moduleName": "JMapCoreKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7CGPointV11JMapCoreKitE10dimensionsSivgZ",
+                "mangledName": "$sSo7CGPointV11JMapCoreKitE10dimensionsSivgZ",
+                "moduleName": "JMapCoreKit",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7CGPointV11JMapCoreKitE10dimensionsSivsZ",
+                "mangledName": "$sSo7CGPointV11JMapCoreKitE10dimensionsSivsZ",
+                "moduleName": "JMapCoreKit",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7CGPointV11JMapCoreKitE10dimensionsSivMZ",
+                "mangledName": "$sSo7CGPointV11JMapCoreKitE10dimensionsSivMZ",
+                "moduleName": "JMapCoreKit",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "kdDimension",
+            "printedName": "kdDimension(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7CGPointV11JMapCoreKitE11kdDimensionySdSiF",
+            "mangledName": "$sSo7CGPointV11JMapCoreKitE11kdDimensionySdSiF",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "squaredDistance",
+            "printedName": "squaredDistance(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7CGPointV11JMapCoreKitE15squaredDistance2toSdAB_tF",
+            "mangledName": "$sSo7CGPointV11JMapCoreKitE15squaredDistance2toSdAB_tF",
+            "moduleName": "JMapCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@CGPoint",
+        "moduleName": "CoreFoundation",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "KDTreePoint",
+            "printedName": "KDTreePoint",
+            "usr": "s:11JMapCoreKit11KDTreePointP",
+            "mangledName": "$s11JMapCoreKit11KDTreePointP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSValue",
+                    "printedName": "Foundation.NSValue",
+                    "usr": "c:objc(cs)NSValue"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1710,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2315,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8913,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9942,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "kind": "Array",
+      "offset": 17159,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17176,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "kind": "StringLiteral",
+      "offset": 1454,
+      "length": 3,
+      "value": "\"l\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "kind": "StringLiteral",
+      "offset": 1484,
+      "length": 3,
+      "value": "\"v\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "kind": "StringLiteral",
+      "offset": 1544,
+      "length": 3,
+      "value": "\"r\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "kind": "StringLiteral",
+      "offset": 1454,
+      "length": 3,
+      "value": "\"l\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "kind": "StringLiteral",
+      "offset": 1484,
+      "length": 3,
+      "value": "\"v\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "kind": "StringLiteral",
+      "offset": 1544,
+      "length": 3,
+      "value": "\"r\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1728,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "kind": "Array",
+      "offset": 4044,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4117,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4152,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5467,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 851,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 892,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1102,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "kind": "StringLiteral",
+      "offset": 1178,
+      "length": 32,
+      "value": "\"k-d tree is not initialzed yet\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 64,
+      "value": "\"element must be JMapDestination or JMapAmenity or JMapPathType\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "kind": "StringLiteral",
+      "offset": 1355,
+      "length": 19,
+      "value": "\"element not found\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "kind": "StringLiteral",
+      "offset": 1409,
+      "length": 32,
+      "value": "\"current floor or map not found\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "kind": "StringLiteral",
+      "offset": 1477,
+      "length": 53,
+      "value": "\"No path type found to reach to the searched element\""
+    },
+    {
+      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/CGPoint+KDTreePoint.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1382,
+      "length": 1,
+      "value": "2"
+    }
+  ]
+}

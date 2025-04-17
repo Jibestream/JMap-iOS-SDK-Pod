@@ -1,0 +1,6 @@
+framework module JMapRenderingKit {
+  umbrella header "JMapRenderingKit.h"
+  export *
+
+  module * { export * }
+}

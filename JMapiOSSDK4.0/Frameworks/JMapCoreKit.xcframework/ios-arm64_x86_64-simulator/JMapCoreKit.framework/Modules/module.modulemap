@@ -1,0 +1,11 @@
+framework module JMapCoreKit {
+  umbrella header "JMapCoreKit.h"
+  export *
+
+  module * { export * }
+}
+
+module JMapCoreKit.Swift {
+  header "JMapCoreKit-Swift.h"
+  requires objc
+}

@@ -1,0 +1,100 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name JMapCoreKit
+import CoreGraphics
+import Foundation
+@_exported import JMapCoreKit
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum KDTree<Element> where Element : JMapCoreKit.KDTreePoint {
+  case leaf
+  indirect case node(left: JMapCoreKit.KDTree<Element>, value: Element, dimension: Swift.Int, right: JMapCoreKit.KDTree<Element>)
+}
+extension JMapCoreKit.KDTree {
+  public init(values: [Element], depth: Swift.Int = 0)
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public var count: Swift.Int {
+    get
+  }
+  public var elements: [Element] {
+    get
+  }
+  public func contains(_ value: Element) -> Swift.Bool
+  public func inserting(_ newValue: Element, dim: Swift.Int = 0) -> JMapCoreKit.KDTree<Element>
+  public func removing(_ valueToBeRemoved: Element, dim: Swift.Int = 0) -> JMapCoreKit.KDTree<Element>
+  public var depth: Swift.Int {
+    get
+  }
+}
+extension JMapCoreKit.KDTree {
+  public func map<T>(_ transform: (Element) throws -> T) rethrows -> JMapCoreKit.KDTree<T> where T : JMapCoreKit.KDTreePoint
+  public func filter(_ includeElement: (Element) throws -> Swift.Bool) rethrows -> JMapCoreKit.KDTree<Element>
+  public func forEach(_ body: (Element) throws -> Swift.Void) rethrows
+  public func investigateTree(_ parents: [JMapCoreKit.KDTree<Element>] = [], depth: Swift.Int = 0, body: (_ node: JMapCoreKit.KDTree<Element>, _ parents: [JMapCoreKit.KDTree<Element>], _ depth: Swift.Int) -> Swift.Void)
+}
+extension JMapCoreKit.KDTree : Swift.Encodable where Element : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension JMapCoreKit.KDTree : Swift.Decodable where Element : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension JMapCoreKit.KDTree where Element : Swift.Encodable {
+  public func save(to path: Foundation.URL) throws
+}
+extension JMapCoreKit.KDTree where Element : Swift.Decodable {
+  public init(contentsOf path: Foundation.URL) throws
+}
+extension JMapCoreKit.KDTree {
+  public func elementsIn(_ intervals: [(Swift.Double, Swift.Double)]) -> [Element]
+}
+public func == <T>(lhs: JMapCoreKit.KDTree<T>, rhs: JMapCoreKit.KDTree<T>) -> Swift.Bool where T : JMapCoreKit.KDTreePoint
+public func != <T>(lhs: JMapCoreKit.KDTree<T>, rhs: JMapCoreKit.KDTree<T>) -> Swift.Bool where T : JMapCoreKit.KDTreePoint
+extension JMapCoreKit.KDTree : Swift.Equatable {
+}
+extension JMapCoreKit.KDTree {
+  public func nearest(to element: Element, maxDistance: Swift.Double = Double.infinity, where condition: (Element) -> Swift.Bool = { _ in true }) -> Element?
+}
+extension JMapCoreKit.KDTree {
+  public func nearestK(_ number: Swift.Int, to searchElement: Element, where condition: (Element) -> Swift.Bool = { _ in true }) -> [Element]
+  public func allPoints(within radius: Swift.Double, of searchElement: Element) -> [Element]
+}
+@objc public protocol JMapNearestElementDelegate {
+  @objc func isConditionPassed(waypoint: JMapCoreKit.JMapWaypoint) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers public class JMapNearestElement : ObjectiveC.NSObject {
+  @objc public var delegate: (any JMapCoreKit.JMapNearestElementDelegate)?
+  @objc public func initializeKDTree(for activeVenue: JMapCoreKit.JMapActiveVenue)
+  @objc public func searchNearestElement(_ element: Swift.AnyObject, at point: CoreFoundation.CGPoint, forMap map: JMapCoreKit.JMapMap, completionHandler: (_ waypoint: JMapCoreKit.JMapWaypoint?, _ element: Swift.AnyObject?, _ error: JMapCoreKit.JMapError?) -> Swift.Void)
+  @objc public func reset()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension JMapCoreKit.JMapNearestElement {
+  @objc dynamic public func getNearestElement(from startWaypoint: JMapCoreKit.JMapWaypoint, toMapId: Foundation.NSNumber, for elements: [Swift.AnyObject], withAccessibility accessible: Swift.Int) -> [Swift.String : Any]?
+}
+extension CoreFoundation.CGPoint : JMapCoreKit.KDTreePoint {
+  public static var dimensions: Swift.Int
+  public func kdDimension(_ dimension: Swift.Int) -> Swift.Double
+  public func squaredDistance(to otherPoint: CoreFoundation.CGPoint) -> Swift.Double
+}
+public protocol KDTreePoint : Swift.Equatable {
+  static var dimensions: Swift.Int { get }
+  func kdDimension(_ dimension: Swift.Int) -> Swift.Double
+  func squaredDistance(to otherPoint: Self) -> Swift.Double
+}
+extension JMapCoreKit.KDTree : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension JMapCoreKit.KDTree : Swift.Sequence {
+  public func makeIterator() -> Swift.AnyIterator<Element>
+  public typealias Iterator = Swift.AnyIterator<Element>
+}
