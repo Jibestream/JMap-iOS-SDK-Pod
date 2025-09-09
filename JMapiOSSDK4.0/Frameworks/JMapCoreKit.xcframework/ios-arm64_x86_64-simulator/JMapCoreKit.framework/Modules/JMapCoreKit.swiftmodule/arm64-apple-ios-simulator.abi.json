@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "JMapCoreKit",
+    "printedName": "JMapCoreKit",
     "children": [
       {
         "kind": "Import",
@@ -1310,6 +1310,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
@@ -1581,6 +1595,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1978,6 +2008,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2181,6 +2225,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2371,6 +2429,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "KDTreePoint",
             "printedName": "KDTreePoint",
             "usr": "s:11JMapCoreKit11KDTreePointP",
@@ -2425,6 +2497,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -2487,34 +2566,6 @@
       "offset": 17176,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
-      "kind": "StringLiteral",
-      "offset": 1454,
-      "length": 3,
-      "value": "\"l\""
-    },
-    {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
-      "kind": "StringLiteral",
-      "offset": 1484,
-      "length": 3,
-      "value": "\"v\""
-    },
-    {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
-      "kind": "StringLiteral",
-      "offset": 1514,
-      "length": 3,
-      "value": "\"d\""
-    },
-    {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
-      "kind": "StringLiteral",
-      "offset": 1544,
-      "length": 3,
-      "value": "\"r\""
     },
     {
       "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
