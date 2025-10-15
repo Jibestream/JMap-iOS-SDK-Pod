@@ -101,6 +101,11 @@
 @property (nonatomic, assign, readonly) BOOL isUnitLabel;
 
 /**
+ *  Font scale factor for adjusting font size
+ */
+@property (nonatomic, assign, readwrite) float fontScaleFactor;
+
+/**
  *  Init With Frame: Constructor method JMapLabel
  *
  *  @param frame CGRect frame size of the label
@@ -113,10 +118,11 @@
  *  @param font optional UIFont for the text label
  *  @param rotation optional Integer for the label
  *  @param isUnitLabel Boolean to determine if the lebel is for a unit
+ *  @param fontScaleFactor Font scale factor for adjusting font size
  *
  *  @return new JMapLabel object
  */
-- (nonnull instancetype)initWithFrame:(CGRect)frame id:(nonnull NSNumber *)id mapIds:(nonnull NSArray <NSNumber *>*)mapIds text:(nullable NSString *)text image:(nullable UIImage *)image uri:(nullable NSString *)uri svg:(nullable NSString *)svg font:(nullable UIFont *)font rotation:(nullable NSNumber *)rotation isUnitLabel:(BOOL)isUnitLabel;
+- (nonnull instancetype)initWithFrame:(CGRect)frame id:(nonnull NSNumber *)id mapIds:(nonnull NSArray <NSNumber *>*)mapIds text:(nullable NSString *)text image:(nullable UIImage *)image uri:(nullable NSString *)uri svg:(nullable NSString *)svg font:(nullable UIFont *)font rotation:(nullable NSNumber *)rotation isUnitLabel:(BOOL)isUnitLabel fontScaleFactor:(float)fontScaleFactor;
 
 /**
  *  Init With Frame: Constructor method JMapLabel
@@ -131,10 +137,11 @@
  *  @param jmapFont optional JMapFont for the text label
  *  @param rotation optional Integer for the label
  *  @param isUnitLabel Boolean to determine if the lebel is for a unit
+ *  @param fontScaleFactor Font scale factor for adjusting font size
  *
  *  @return new JMapLabel object
  */
-- (nonnull instancetype)initWithFrame:(CGRect)frame id:(nonnull NSNumber *)id mapIds:(nonnull NSArray <NSNumber *>*)mapIds text:(nullable NSString *)text image:(nullable UIImage *)image uri:(nullable NSString *)uri svg:(nullable NSString *)svg jmapFont:(nullable JMapFont *)jmapFont rotation:(nullable NSNumber *)rotation isUnitLabel:(BOOL)isUnitLabel;
+- (nonnull instancetype)initWithFrame:(CGRect)frame id:(nonnull NSNumber *)id mapIds:(nonnull NSArray <NSNumber *>*)mapIds text:(nullable NSString *)text image:(nullable UIImage *)image uri:(nullable NSString *)uri svg:(nullable NSString *)svg jmapFont:(nullable JMapFont *)jmapFont rotation:(nullable NSNumber *)rotation isUnitLabel:(BOOL)isUnitLabel fontScaleFactor:(float)fontScaleFactor;
 
 /**
  *  Init With Map Label: Constructor method JMapLabel

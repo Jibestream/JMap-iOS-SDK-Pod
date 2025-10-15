@@ -32,7 +32,7 @@
  *
  *  @return newly created JMapLabel object
  */
-- (nonnull JMapLabel *)createLabelForUnitId:(NSInteger)unitId content:(nullable NSString *)content frame:(CGRect)frame mapIds:(nonnull NSArray <NSNumber*>*)mapIds image:(nullable UIImage *)image uri:(nullable NSString *)uri font:(nullable UIFont *)font isUnitLabel:(BOOL)isUnitLabel;
+- (nonnull JMapLabel *)createLabelForUnitId:(NSInteger)unitId content:(nullable NSString *)content frame:(CGRect)frame mapIds:(nonnull NSArray <NSNumber*>*)mapIds image:(nullable UIImage *)image uri:(nullable NSString *)uri font:(nullable UIFont *)font isUnitLabel:(BOOL)isUnitLabel fontScaleFactor:(float)fontScaleFactor;
 
 /**
  *  Create Label For Unit
@@ -48,7 +48,7 @@
  *
  *  @return newly created JMapLabel object
  */
-- (nonnull JMapLabel *)createLabelForUnitId:(NSInteger)unitId content:(nullable NSString *)content frame:(CGRect)frame mapIds:(nonnull NSArray <NSNumber*>*)mapIds image:(nullable UIImage *)image uri:(nullable NSString *)uri jmapFont:(nullable JMapFont *)jmapFont isUnitLabel:(BOOL)isUnitLabel;
+- (nonnull JMapLabel *)createLabelForUnitId:(NSInteger)unitId content:(nullable NSString *)content frame:(CGRect)frame mapIds:(nonnull NSArray <NSNumber*>*)mapIds image:(nullable UIImage *)image uri:(nullable NSString *)uri jmapFont:(nullable JMapFont *)jmapFont isUnitLabel:(BOOL)isUnitLabel fontScaleFactor:(float)fontScaleFactor;
 
 /**
  *  Create Map Labels

@@ -1,6 +1,0 @@
-framework module JMapControllerKit {
-  umbrella header "JMapControllerKit.h"
-
-  export *
-  module * { export * }
-}

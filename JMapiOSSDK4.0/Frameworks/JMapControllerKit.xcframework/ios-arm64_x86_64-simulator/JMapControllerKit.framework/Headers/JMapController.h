@@ -618,6 +618,14 @@ typedef void(^_Nullable ErrorCompletion)(JMapError * _Nullable error);
  */
 - (void)setZoomScaleForLabelClustering:(nonnull NSNumber *)zoomScale;
 
+/**
+ *  Set the font scale factor at where the labels become visibile
+ *  Default value set to 1
+ *
+ *  @param scaleFactor The font scale factor to set for label visibility
+ */
+- (void)setFontScaleFactor:(float)scaleFactor;
+
 #pragma mark - Component/Popup Helpers
 
 /**
