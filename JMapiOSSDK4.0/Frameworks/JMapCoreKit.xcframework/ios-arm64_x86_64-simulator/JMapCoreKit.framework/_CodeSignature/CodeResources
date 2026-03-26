@@ -54,11 +54,11 @@
 		</data>
 		<key>Headers/JMapCoreKit-Swift.h</key>
 		<data>
-		dNlv3x7cCxvyFcnJ/OZsCW+XMM0=
+		tjogpny87fDNR3cWgxrboonlb8w=
 		</data>
 		<key>Headers/JMapCoreKit.h</key>
 		<data>
-		4epZHhfXI884TbmRrxQeXouZUpU=
+		rspexrF9pXdf+iu1aJmbU0zg5kk=
 		</data>
 		<key>Headers/JMapCoreUtils.h</key>
 		<data>
@@ -202,47 +202,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PA81wvBcPgPPR78JNwK4wxLsMe4=
+		r8Yq93MUBmTPrB6eTBPIU+pOCUw=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/8jTffdHiq+oX7yfJnozBF+fMtk=
+		XL9ki/Sp5Vf2wW2PY6MdFWYgYfw=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QvTI5rcX62aKf7b5U6uueXMlutY=
+		a0kse0e+XiSNovLm94m2hBowG04=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		g1v0DSkfvUswwYI5KlRqy1JSCgk=
+		7Hqdr6oQ2DEdRPdy1iwmvu+hDmQ=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QvTI5rcX62aKf7b5U6uueXMlutY=
+		a0kse0e+XiSNovLm94m2hBowG04=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tpzihH0AdP22jJtwVILfPmwlF0E=
+		iCJ2KQ1VriZDHmjUDAZWIeIV+98=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/8jTffdHiq+oX7yfJnozBF+fMtk=
+		XL9ki/Sp5Vf2wW2PY6MdFWYgYfw=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		87MVWPVn+SiGG7vZ1bwPZMU3uNY=
+		8od4C05Et3HpXGx0UmIvk6TIYlk=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		KpEh955ppHzn3MB40QKYFP3mLYg=
+		3Uihj9qc5zWqn14Elh8M8rS8VFE=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		87MVWPVn+SiGG7vZ1bwPZMU3uNY=
+		8od4C05Et3HpXGx0UmIvk6TIYlk=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xQf4I7C3wS5Orx7u4fHNW+Ux494=
+		TAOw+icEjK8MmTJO5yLC8ZFtl2o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -387,22 +387,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dNlv3x7cCxvyFcnJ/OZsCW+XMM0=
+			tjogpny87fDNR3cWgxrboonlb8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			eRrFHPOlPqev7uHiEF84apjDMXqTH4yua4EKAlSZCs0=
+			2cVcaXMO3232ETlBbbYHCF+846BFjCaB37+dOoAkwQQ=
 			</data>
 		</dict>
 		<key>Headers/JMapCoreKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4epZHhfXI884TbmRrxQeXouZUpU=
+			rspexrF9pXdf+iu1aJmbU0zg5kk=
 			</data>
 			<key>hash2</key>
 			<data>
-			yRD7Rh9YOR4Q4BTDNB8G6pussFHXPBaLavrWiVvWmlk=
+			29bOQYDUq0JwXvjraAp3Uio/jAbraUbqxNxh6GKELk0=
 			</data>
 		</dict>
 		<key>Headers/JMapCoreUtils.h</key>
@@ -794,110 +794,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/8jTffdHiq+oX7yfJnozBF+fMtk=
+			XL9ki/Sp5Vf2wW2PY6MdFWYgYfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			aUwNmD/xlohT85QmYAFh0o+oAPg+Yubyoh3NWu4ld+o=
+			+h6Ft3UXwDChZ6GLClktueECjdbD+1CXMIPKzZMB32M=
 			</data>
 		</dict>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QvTI5rcX62aKf7b5U6uueXMlutY=
+			a0kse0e+XiSNovLm94m2hBowG04=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zf8+7W3yU+HAan5fVvh0nklsalyfyViPjRkX4ztA+c4=
+			MFTPaGYr3ze6jIpuvK4uaf3UmeCmZDqOPzi3c0u1YY0=
 			</data>
 		</dict>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g1v0DSkfvUswwYI5KlRqy1JSCgk=
+			7Hqdr6oQ2DEdRPdy1iwmvu+hDmQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			UJ4jp68f4mNKaRoLT3kmWRUnk2Ba4QCZi3TIWSeAkkM=
+			CcPMsY4ALAiDx/OxMmHLt0BQdJ0jP7NYCql2WndW44Y=
 			</data>
 		</dict>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QvTI5rcX62aKf7b5U6uueXMlutY=
+			a0kse0e+XiSNovLm94m2hBowG04=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zf8+7W3yU+HAan5fVvh0nklsalyfyViPjRkX4ztA+c4=
+			MFTPaGYr3ze6jIpuvK4uaf3UmeCmZDqOPzi3c0u1YY0=
 			</data>
 		</dict>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tpzihH0AdP22jJtwVILfPmwlF0E=
+			iCJ2KQ1VriZDHmjUDAZWIeIV+98=
 			</data>
 			<key>hash2</key>
 			<data>
-			W62Im/QrgJNz4p0SY3gCgGGRr3xPE5YUyMO9deqYEic=
+			/Xy3C/UTWU9PadffkIioO5Cr0dwwI5qgMgMfBrsPR90=
 			</data>
 		</dict>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/8jTffdHiq+oX7yfJnozBF+fMtk=
+			XL9ki/Sp5Vf2wW2PY6MdFWYgYfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			aUwNmD/xlohT85QmYAFh0o+oAPg+Yubyoh3NWu4ld+o=
+			+h6Ft3UXwDChZ6GLClktueECjdbD+1CXMIPKzZMB32M=
 			</data>
 		</dict>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			87MVWPVn+SiGG7vZ1bwPZMU3uNY=
+			8od4C05Et3HpXGx0UmIvk6TIYlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			3904AJ0jTmdej3UHCJ5XLi4bDTQ6rNEKpOOFCBKg7hg=
+			gybYAgi4xWh7GePRlzrkdpZD2BJj35pJA+uEUN5BezQ=
 			</data>
 		</dict>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KpEh955ppHzn3MB40QKYFP3mLYg=
+			3Uihj9qc5zWqn14Elh8M8rS8VFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5rlnEmchc91Qc0omfjALSEH2LSN9y1IRiD9Wd7xqGqc=
+			OJF75gxel2tc5SYjAJZqJhkS43Rz5UObI+eIGq2gu5A=
 			</data>
 		</dict>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			87MVWPVn+SiGG7vZ1bwPZMU3uNY=
+			8od4C05Et3HpXGx0UmIvk6TIYlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			3904AJ0jTmdej3UHCJ5XLi4bDTQ6rNEKpOOFCBKg7hg=
+			gybYAgi4xWh7GePRlzrkdpZD2BJj35pJA+uEUN5BezQ=
 			</data>
 		</dict>
 		<key>Modules/JMapCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xQf4I7C3wS5Orx7u4fHNW+Ux494=
+			TAOw+icEjK8MmTJO5yLC8ZFtl2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			p+nqk8S8VWPYmW9jSiPOFh1+hxHFOFna1wYjgpLiLVQ=
+			/yUFb3i5VDgYOjPBF5kWektaVNwf1qQbDruzy2HDjbs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

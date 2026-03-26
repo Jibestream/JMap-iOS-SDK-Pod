@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oHEliNwjRQiueP6d53BcT9QvHOo=
+		FuQatuDF5nmzDJrW1Td6zUT1y/s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -37,10 +37,6 @@
 	<dict>
 		<key>Headers/JMap.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			N0UwVGSXqL6yEAFgz8OZvrr5umE=
-			</data>
 			<key>hash2</key>
 			<data>
 			lnP5HO7ZN9Owk9ijdCGJpQ8x/+csgOJP4oMIn3TdOYE=
@@ -48,10 +44,6 @@
 		</dict>
 		<key>Headers/JMapController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vqJs2MHNa9J5Tb/9NOlYzDfKOsg=
-			</data>
 			<key>hash2</key>
 			<data>
 			bW8et654PJd0MRRJmee2Je7sYpF7tdozPq6LEtulWh0=
@@ -59,10 +51,6 @@
 		</dict>
 		<key>Headers/JMapControllerKit.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			reXUXYZ9E3i4U73FaBYfdUFuoQo=
-			</data>
 			<key>hash2</key>
 			<data>
 			WChslV/pSeeGGPl/DcgPccbnJzhlCvG6aMgsLV9f4X8=
@@ -70,10 +58,6 @@
 		</dict>
 		<key>Headers/JMapControllerKitUtils.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gYF34+nv+CtM5EDdsgbBLqWyJuk=
-			</data>
 			<key>hash2</key>
 			<data>
 			aSciAXErffXrvWQh9tw4p9xUJ1/5XoJBDfz2wlWgNHE=
@@ -81,10 +65,6 @@
 		</dict>
 		<key>Headers/JMapOptions.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cFSuS9AwLBfENQBoWO2E8a8A1w0=
-			</data>
 			<key>hash2</key>
 			<data>
 			kMaajPE2gCOe1nI1OIUbw2nasfHLrfMJwQoX81uC/Tk=
@@ -92,10 +72,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gT+fUipaAfgUh27N3cZe0TLxivk=
-			</data>
 			<key>hash2</key>
 			<data>
 			IFqnfHkM5A00hBJMm7iXy+kdJco2V9LBsAzQbw8tB/s=

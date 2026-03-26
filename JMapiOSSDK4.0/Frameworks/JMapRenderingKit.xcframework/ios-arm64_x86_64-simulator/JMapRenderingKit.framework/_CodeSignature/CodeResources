@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3a+iYogw29UjKpCf3jp/XccnVSE=
+		fmfwJ5b3guSKBX1O9ttjIgLUoyA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,10 +121,6 @@
 	<dict>
 		<key>Headers/Circle.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			S6cvNydn+hCBv+yTflPNpgC217E=
-			</data>
 			<key>hash2</key>
 			<data>
 			+ADcAZt250w/gxfxmzm6YOjdc3UQMMKYzVr2c95o4J8=
@@ -132,10 +128,6 @@
 		</dict>
 		<key>Headers/Ellipse.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lg2m/Z/6pauFBiEEO2lz7PRahmo=
-			</data>
 			<key>hash2</key>
 			<data>
 			auKacLrjZLcoRAigbHGo6S/su+V1bd/asCi78qrerlY=
@@ -143,10 +135,6 @@
 		</dict>
 		<key>Headers/JMapBaseLayer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0Elpg8mLSFBiB507wZ0H1vpno+g=
-			</data>
 			<key>hash2</key>
 			<data>
 			ULG+S3QipstcprIMM1T59xW341VGIZ8JLruu3zr9ZKA=
@@ -154,10 +142,6 @@
 		</dict>
 		<key>Headers/JMapCanvas.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BF4mRKVLaU7ESQlTByOgjXfNn48=
-			</data>
 			<key>hash2</key>
 			<data>
 			YkdmPhWsYixseoZ3JGrFT4piNc0neDy2snDA7Tcqvk4=
@@ -165,10 +149,6 @@
 		</dict>
 		<key>Headers/JMapFont.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dSgc6Wtsny96T66VycN9TWLIoqY=
-			</data>
 			<key>hash2</key>
 			<data>
 			f65TK9icT18JOdFUiNL/d4EkD5ssnJq+c1lyLgPs8yM=
@@ -176,10 +156,6 @@
 		</dict>
 		<key>Headers/JMapIconStyle.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mbOp8dhsFpv0RqKmbMoPHx/TwbA=
-			</data>
 			<key>hash2</key>
 			<data>
 			X7T2SFYFMFFhmG3XGQwJhqNHpfxvU3hRmy4Vh6umFsw=
@@ -187,10 +163,6 @@
 		</dict>
 		<key>Headers/JMapIconView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4DuIvF6JLNrcJtX4L0P7MIMHQRo=
-			</data>
 			<key>hash2</key>
 			<data>
 			JlFz9bzNSouK0H6ETdtyilcc3UJGukjRYLq0t1xJ+L0=
@@ -198,10 +170,6 @@
 		</dict>
 		<key>Headers/JMapItemView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8WqKWgsZWuUiQbf3ioAxao4W9aQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			YY+3C3OZBbGFYgXP+FudhAZvSYClA8E7AGvSaSRPU1w=
@@ -209,10 +177,6 @@
 		</dict>
 		<key>Headers/JMapKPointsAndPathsParser.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Sn/XlFYpc7f6H+y3Q0NFkU3ifpE=
-			</data>
 			<key>hash2</key>
 			<data>
 			tFBjKPak9cGziJ5eKV6FpCrgyUnZcFeQ/+N8OuwPdKI=
@@ -220,10 +184,6 @@
 		</dict>
 		<key>Headers/JMapLabel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Zac94GX/l0Ew3guUcDWalf+M/9Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			gnkaxC0AyzQaaLJPehPkKmntq5bCzZqUryvv36UJel4=
@@ -231,10 +191,6 @@
 		</dict>
 		<key>Headers/JMapLabels.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RfW2E/xC7mOlHVktVjHNfKVDdvY=
-			</data>
 			<key>hash2</key>
 			<data>
 			aq8p/Ig9TnuBARfGpO+86aChywaeDCwEyLmoCGRBIGM=
@@ -242,10 +198,6 @@
 		</dict>
 		<key>Headers/JMapMovingObject.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HJb0zsP4zyzOFJ/HP5FL/mpeI3w=
-			</data>
 			<key>hash2</key>
 			<data>
 			fT3lunSTZ+cc/iKODMpvO+X8vCQ93kal97AUj9cb68Q=
@@ -253,10 +205,6 @@
 		</dict>
 		<key>Headers/JMapRendering.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zS0s10m6RHxu87j48n10IpQFw3U=
-			</data>
 			<key>hash2</key>
 			<data>
 			XqQdj5228kQ/TwvTKx/u3rPnKpUrcZb4oGekDvgACdE=
@@ -264,10 +212,6 @@
 		</dict>
 		<key>Headers/JMapRenderingKit.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zJMU0dkxzX5GO47gf49zoDEMvOo=
-			</data>
 			<key>hash2</key>
 			<data>
 			fpYwt09iZqiXaa/vz76e8jKojJPeZ7XQw34BsU9JSzQ=
@@ -275,10 +219,6 @@
 		</dict>
 		<key>Headers/JMapRenderingKitUtils.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ur0Zr/4zfV2GcVYcOYtUmEEnMD4=
-			</data>
 			<key>hash2</key>
 			<data>
 			bgNdkrk6Brwq2vWkViEonpGRBd5CxtBEsYBxWMLUrpg=
@@ -286,10 +226,6 @@
 		</dict>
 		<key>Headers/JMapSVGParser.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0xjjIQyJUsStWy8OD33W+nyMixI=
-			</data>
 			<key>hash2</key>
 			<data>
 			dPbkxQLJA0EaM+w1kQBKtkhOLZ8frp2d9arhSXLWW44=
@@ -297,10 +233,6 @@
 		</dict>
 		<key>Headers/JMapStyle.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Me84zeuUyNwln+FwlhlxHAQUZwQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			WBBrYoUhOA9nnwBiohsjzghFQYoE1PItg9AkRCrrbMI=
@@ -308,10 +240,6 @@
 		</dict>
 		<key>Headers/JMapTransform.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j1BqxlhGjjwYcOVpVhl6Zi21FO8=
-			</data>
 			<key>hash2</key>
 			<data>
 			jMGtQQrOVeB72bU/MumPdDeHlAti4P+ghw9TQ9kf3wQ=
@@ -319,10 +247,6 @@
 		</dict>
 		<key>Headers/JMapUserLocation.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X3KjPjaeffGlnurPT8fiQKWHDHc=
-			</data>
 			<key>hash2</key>
 			<data>
 			qLPeTVF9O1Q2VK0YWRnDsTAf4hLWJe93dG3KxatCVRY=
@@ -330,10 +254,6 @@
 		</dict>
 		<key>Headers/Line.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yvug2WL7n7hzzhAVfKUe2mE+LuM=
-			</data>
 			<key>hash2</key>
 			<data>
 			Le2cwWjfhYx2njdcoasz73y/Aa2BJNCGzY9hGeFkJy0=
@@ -341,10 +261,6 @@
 		</dict>
 		<key>Headers/MapLayer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NneOnfBgZ1Ei3jNXNQ8a0bDGKC4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Qmd0gb8GYRZYpGMKeZF3mMxVW0/yQf2Qo2tix1VongE=
@@ -352,10 +268,6 @@
 		</dict>
 		<key>Headers/Path.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/f0mqQloVvepjVQxqHQ6uXxt9F4=
-			</data>
 			<key>hash2</key>
 			<data>
 			KM0OjcOEssnq8O3kWdkybbLGgpV6IHCfQ4+mnqETtGc=
@@ -363,10 +275,6 @@
 		</dict>
 		<key>Headers/Polygon.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NR9sx0Ai7/YuVscBRdj7qO+KdNk=
-			</data>
 			<key>hash2</key>
 			<data>
 			QiejKwFzbvXWWBomxQbsgmIEcfR+i3PCdkjPbQbtjk0=
@@ -374,10 +282,6 @@
 		</dict>
 		<key>Headers/Polyline.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UuB37w1jdiXIQhvUQEpqJaRQC04=
-			</data>
 			<key>hash2</key>
 			<data>
 			bkrffmNghG9hJSda6IrXPJxBCGBw/Fe6RuRoha1DnUU=
@@ -385,10 +289,6 @@
 		</dict>
 		<key>Headers/Rectangle.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			S3f7GnLI6MQw1T/H5/cocuk+G30=
-			</data>
 			<key>hash2</key>
 			<data>
 			JpwgDpRqGp+AAj1TfOyJzbDgldHRoJzPVABhgDIJfVQ=
@@ -396,10 +296,6 @@
 		</dict>
 		<key>Headers/Shape.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jH/9GnXUmAQLOqi6ZChfKXaiGLQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			U5t4fTswdXZTmuwnv1aOVC2+AIKes+dUbvLb39D3u3M=
@@ -407,10 +303,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			65VicqL5Q2ZYj2kFMYtXyIEu6EQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			fjWgk+Wl3udqB+4qe/2QLgc90bJZAcEKFOWlN50WfSs=

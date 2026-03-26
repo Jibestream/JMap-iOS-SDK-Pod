@@ -2518,6 +2518,42 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       }
@@ -2526,168 +2562,168 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
       "kind": "IntegerLiteral",
       "offset": 1710,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
       "kind": "IntegerLiteral",
       "offset": 2315,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
       "kind": "IntegerLiteral",
       "offset": 8913,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
       "kind": "IntegerLiteral",
       "offset": 9942,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
       "kind": "Array",
       "offset": 17159,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree.swift",
       "kind": "IntegerLiteral",
       "offset": 17176,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
       "kind": "StringLiteral",
       "offset": 1454,
       "length": 3,
       "value": "\"l\""
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
       "kind": "StringLiteral",
       "offset": 1484,
       "length": 3,
       "value": "\"v\""
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
       "kind": "StringLiteral",
       "offset": 1514,
       "length": 3,
       "value": "\"d\""
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree+Codable.swift",
       "kind": "StringLiteral",
       "offset": 1544,
       "length": 3,
       "value": "\"r\""
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
       "kind": "BooleanLiteral",
       "offset": 1728,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
       "kind": "Array",
       "offset": 4044,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
       "kind": "IntegerLiteral",
       "offset": 4117,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
       "kind": "BooleanLiteral",
       "offset": 4152,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/KDTree+NearestNeighbour.swift",
       "kind": "BooleanLiteral",
       "offset": 5467,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
       "kind": "BooleanLiteral",
       "offset": 851,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
       "kind": "BooleanLiteral",
       "offset": 892,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
       "kind": "IntegerLiteral",
       "offset": 1102,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
       "kind": "StringLiteral",
       "offset": 1178,
       "length": 32,
       "value": "\"k-d tree is not initialzed yet\""
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
       "kind": "StringLiteral",
       "offset": 1253,
       "length": 64,
       "value": "\"element must be JMapDestination or JMapAmenity or JMapPathType\""
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
       "kind": "StringLiteral",
       "offset": 1355,
       "length": 19,
       "value": "\"element not found\""
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
       "kind": "StringLiteral",
       "offset": 1409,
       "length": 32,
       "value": "\"current floor or map not found\""
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/JMapNearestElement.swift",
       "kind": "StringLiteral",
       "offset": 1477,
       "length": 53,
       "value": "\"No path type found to reach to the searched element\""
     },
     {
-      "filePath": "\/Users\/asimkhattri\/Documents\/SourceCode\/CxApp-Organization\/JMap2-iOS\/JMapCore\/JMapCoreKit\/CGPoint+KDTreePoint.swift",
+      "filePath": "\/Users\/faraz\/Dev\/CxAPP\/JMap-IOS\/JMapCore\/JMapCoreKit\/CGPoint+KDTreePoint.swift",
       "kind": "IntegerLiteral",
       "offset": 1382,
       "length": 1,
