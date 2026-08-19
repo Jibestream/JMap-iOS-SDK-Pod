@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/JMapCoreKit.h</key>
 		<data>
-		rspexrF9pXdf+iu1aJmbU0zg5kk=
+		E7DI590XwSnIW4Ex2gexovJVUpE=
 		</data>
 		<key>Headers/JMapCoreUtils.h</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		r8Yq93MUBmTPrB6eTBPIU+pOCUw=
+		68D5o5SsWt8NkJZug8liv3yWeFc=
 		</data>
 		<key>Modules/JMapCoreKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -398,11 +398,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rspexrF9pXdf+iu1aJmbU0zg5kk=
+			E7DI590XwSnIW4Ex2gexovJVUpE=
 			</data>
 			<key>hash2</key>
 			<data>
-			29bOQYDUq0JwXvjraAp3Uio/jAbraUbqxNxh6GKELk0=
+			a+vwiNSUzwBtq/Xo8ZBp5oUCIp64fmwF9Cvucyy5jGU=
 			</data>
 		</dict>
 		<key>Headers/JMapCoreUtils.h</key>
