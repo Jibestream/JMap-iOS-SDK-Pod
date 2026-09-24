@@ -37,3 +37,9 @@
 #import <JMapRenderingKit/JMapFont.h>
 
 
+
+// SCPB-3877 zone labels: the host supplies placements, the SDK owns fit, arbitration and drawing.
+#import <JMapRenderingKit/JMapZoneLabelPlacement.h>
+#import <JMapRenderingKit/JMapZoneLabelConfig.h>
+#import <JMapRenderingKit/JMapLabelOptions.h>
+#import <JMapRenderingKit/JMapZoneLabelFitMath.h>

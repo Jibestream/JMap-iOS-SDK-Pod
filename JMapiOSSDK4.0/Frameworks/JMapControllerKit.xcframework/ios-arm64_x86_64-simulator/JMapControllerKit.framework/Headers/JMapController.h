@@ -11,6 +11,8 @@
 #import <JMapRenderingKit/JMapRenderingKit.h>
 #import <JMapCoreKit/UIFont+withColor.h>
 
+@class JMapZoneLabelPlacement;
+
 /**
  *  The Controller class of the iOS SDK.
  */
@@ -1149,6 +1151,37 @@ typedef void(^_Nullable ErrorCompletion)(JMapError * _Nullable error);
  * @return an array of objects, in order of most to least relevant based on your, Query and Ranked Properties.
  */
 + (nonnull NSArray*) getObjectsInArray:(nonnull NSArray*)array byString:(nonnull NSString *)query highRankProperties:(nullable NSArray<NSString *>*)rankedProperties maxResults:(nullable NSNumber*)maxResults;
+
+/**
+ *  Supplies the zone labels for the venue, replacing any previously supplied set.
+ *
+ *  The host owns zone geometry — which waypoints form a label, where it is anchored, and how much
+ *  room its text has. The SDK owns the rest: fitting the text to that room, truncating it,
+ *  arbitrating it against unit labels, and drawing it. Hosts should not create labels for zones
+ *  themselves; a zone label drawn by the host is invisible to the arbitration that keeps zone and
+ *  unit labels from colliding.
+ *
+ *  Placements are held for the whole venue and filtered per floor by their `mapId`, so this is
+ *  called once when the venue's zones are known, not on every floor change. They are NOT cleared by
+ *  a floor or venue change — pass nil when tearing a venue down.
+ *
+ *  Must be called on the main thread.
+ *
+ *  @param placements Zone label placements, or nil/empty to remove all zone labels.
+ */
+- (void)setZoneLabelPlacements:(nullable NSArray<JMapZoneLabelPlacement *> *)placements;
+
+/**
+ *  Sets the label configuration, forwarding to the canvas. Passing nil restores the SDK defaults.
+ *
+ *  The defaults are complete and valid, so a host that never calls this still renders correctly.
+ *  An application that does call it becomes authoritative for the values it overrides: changing one
+ *  is then an application release rather than an SDK one.
+ */
+- (void)setLabelOptions:(nullable JMapLabelOptions *)options;
+
+/** The label configuration in force; never nil. */
+- (nonnull JMapLabelOptions *)labelOptions;
 
 
 @end
