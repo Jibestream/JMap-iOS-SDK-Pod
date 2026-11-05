@@ -11,7 +11,58 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- **iOS 15.0 or later**, as of 6.0.0. Releases 5.13.3 and earlier declare an
+  iOS 10.0 floor and remain resolvable, so a project that cannot move to
+  iOS 15 yet can stay pinned to 5.13.3.
+- **Xcode 15 or later** for Swift Package Manager (`Package.swift` declares
+  `swift-tools-version:5.9`). CocoaPods has no additional Xcode requirement
+  beyond what the SDK binaries themselves need.
+- **`-ObjC` in your target's Other Linker Flags.** `JMapRenderingKit` and
+  `JMapControllerKit` are static frameworks, and without this flag the
+  Objective-C categories inside them are not registered at runtime, producing
+  an `unrecognized selector` crash during map parsing. This requirement is the
+  same for both CocoaPods and Swift Package Manager.
+
 ## Installation
+
+The SDK supports **both** Swift Package Manager and CocoaPods. Both are served
+from this one repository and the same git tag: SPM reads `Package.swift`,
+CocoaPods reads `JMapiOSSDK.podspec`, and both point at the same XCFrameworks
+under `JMapiOSSDK4.0/Frameworks/`. Each ignores the other's manifest.
+
+> **Pick one.** Adding the SDK through both CocoaPods and Swift Package Manager
+> in the same project links the frameworks twice and fails with duplicate
+> symbol errors.
+
+### Swift Package Manager (6.0.0 and later)
+
+In Xcode, choose **File > Add Package Dependencies…**, enter
+`https://github.com/Jibestream/JMap-iOS-SDK-Pod.git`, pick **Up to Next Major Version** from `6.0.0`,
+and add the `JMapiOSSDK` product to your app target.
+
+Or, in a `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/Jibestream/JMap-iOS-SDK-Pod.git", from: "6.0.0")
+],
+targets: [
+    .target(
+        name: "YourTarget",
+        dependencies: [.product(name: "JMapiOSSDK", package: "JMap-iOS-SDK-Pod")]
+    )
+]
+```
+
+The product provides the `JMapCoreKit`, `JMapRenderingKit` and `JMapControllerKit` modules.
+
+Swift Package Manager support is available from **6.0.0** onward. Earlier tags do not contain a
+`Package.swift` and cannot be resolved by SPM.
+
+### CocoaPods (deprecated)
+
+CocoaPods support continues for now but will be removed in a future release; please move to
+Swift Package Manager.
 
 JMapiOSSDK4.0 is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
