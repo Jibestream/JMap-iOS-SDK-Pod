@@ -18,10 +18,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
   `swift-tools-version:5.9`). CocoaPods has no additional Xcode requirement
   beyond what the SDK binaries themselves need.
 - **`-ObjC` in your target's Other Linker Flags.** `JMapRenderingKit` and
-  `JMapControllerKit` are static frameworks, and without this flag the
-  Objective-C categories inside them are not registered at runtime, producing
-  an `unrecognized selector` crash during map parsing. This requirement is the
-  same for both CocoaPods and Swift Package Manager.
+  `JMapControllerKit` ship as static archives (`JMapCoreKit` is a dynamic
+  framework), and `-ObjC` forces the linker to load every Objective-C member
+  of a static archive, including categories that nothing references directly.
+  Without it a category can go unregistered and produce an
+  `unrecognized selector` crash at runtime. CocoaPods writes this flag into
+  its generated xcconfig automatically; with Swift Package Manager you must
+  set it on your own target.
 
 ## Installation
 

@@ -27,8 +27,11 @@ let package = Package(
             name: "JMapCoreKit",
             path: "JMapiOSSDK4.0/Frameworks/JMapCoreKit.xcframework"
         ),
-        // Static Objective-C frameworks; they auto-link their system frameworks (UIKit, WebKit, Metal, ...),
-        // so no linkerSettings are needed here.
+        // Static Objective-C frameworks. They carry no LC_LINKER_OPTION, so they auto-link
+        // nothing by themselves; their system frameworks (UIKit, WebKit, ...) are linked
+        // through the consumer's Clang module graph instead, because the public headers
+        // import them. Verified by linking an app against all three modules, where WebKit
+        // and CoreLocation both end up in the app binary. Hence no linkerSettings here.
         .binaryTarget(
             name: "JMapRenderingKit",
             path: "JMapiOSSDK4.0/Frameworks/JMapRenderingKit.xcframework"
